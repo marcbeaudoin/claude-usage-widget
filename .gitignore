@@ -1,0 +1,5 @@
+# Per-developer identifiers (see Config/Local.xcconfig.example)
+Config/Local.xcconfig
+
+.DS_Store
+xcuserdata/

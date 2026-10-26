@@ -1,0 +1,23 @@
+{
+  "_comment": "SYNTHETIC TEST DATA modeled on the documented Claude Code status-line schema. Not real usage.",
+  "hook_event_name": "Status",
+  "session_id": "test-session-0000",
+  "transcript_path": "/tmp/test/transcript.jsonl",
+  "cwd": "/tmp/test/project",
+  "model": { "id": "claude-opus-5-5", "display_name": "Opus" },
+  "workspace": { "current_dir": "/tmp/test/project", "project_dir": "/tmp/test/project" },
+  "version": "2.1.309",
+  "output_style": { "name": "default" },
+  "cost": { "total_cost_usd": 0.01234, "total_duration_ms": 45000, "total_api_duration_ms": 2300, "total_lines_added": 156, "total_lines_removed": 23 },
+  "context_window": {
+    "total_input_tokens": 15500,
+    "total_output_tokens": 1200,
+    "context_window_size": 200000,
+    "used_percentage": 8,
+    "remaining_percentage": 92
+  },
+  "rate_limits": {
+    "five_hour": { "used_percentage": 23.5, "resets_at": 1792512000 },
+    "seven_day": { "used_percentage": 41.2, "resets_at": 1792944000 }
+  }
+}

@@ -1,0 +1,11 @@
+//
+//  Local.xcconfig
+//  Per-developer identifiers. Copy this file to Config/Local.xcconfig
+//  (git-ignored) and fill in your values.
+//
+
+BUNDLE_ID_PREFIX = com.yourname
+DEVELOPMENT_TEAM = ABCDE12345
+
+// Optional. Defaults to group.$(BUNDLE_ID_PREFIX).ClaudeUsage.
+// APP_GROUP_IDENTIFIER = group.com.yourname.ClaudeUsage
