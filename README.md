@@ -7,7 +7,7 @@ time, a countdown, and a freshness indicator.
 Values come only from Claude Code itself. Nothing is estimated, and nothing leaves your Mac
 unless you opt in to the usage API.
 
-_Screenshots: to be added._
+![Menu-bar popover](docs/screenshots/popover-dark.png)![Medium desktop widget](docs/screenshots/widget-medium.png)
 
 ## Features
 
@@ -68,6 +68,8 @@ DEVELOPMENT_TEAM = ABCDE12345
 2. Select the **ClaudeUsageWidget** scheme and run it (⌘R).
 
 The app appears in the menu bar. It has no Dock icon.
+
+The app icon source is `ClaudeUsageWidget/AppIcon.icon`; open it in Icon Composer (bundled with Xcode) to edit it.
 
 ### 4. Connect Claude Code
 

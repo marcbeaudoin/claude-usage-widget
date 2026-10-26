@@ -13,6 +13,20 @@
   "files": [
     { "path": "ClaudeUsageWidgetsExtension.entitlements" },
     { "path": "README.md" },
+    {
+      "kind": "group",
+      "path": "docs",
+      "children": [
+        {
+          "kind": "group",
+          "path": "screenshots",
+          "children": [
+            { "path": "popover-dark.png" },
+            { "path": "widget-medium.png" },
+          ],
+        },
+      ],
+    },
     { "kind": "folder", "path": "Config" },
     { "path": "CLAUDE.md", "target-membership": [ "ClaudeUsageWidget/resources" ] },
     {
